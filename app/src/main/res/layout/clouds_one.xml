@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clouds_one"
+    android:layout_width="430dp"
+    android:layout_height="503dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/cloud_top_one"
+        android:layout_width="168dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="82dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/cloud"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/cloud_middle_one"
+        android:layout_width="126dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="-42dp"
+        android:layout_marginTop="337dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/cloud"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/cloud_middle_two"
+        android:layout_width="100dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="337dp"
+        android:layout_marginTop="317dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/cloud"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/cloud_bottom_one"
+        android:layout_width="190dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="-45dp"
+        android:layout_marginTop="438dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/cloud"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/cloud_bottom_two"
+        android:layout_width="158dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="429dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/cloud"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/cloud_bottom_three"
+        android:layout_width="124dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="337dp"
+        android:layout_marginTop="476dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/cloud"
+        tools:ignore="MissingConstraints" />
+
+
+</FrameLayout>

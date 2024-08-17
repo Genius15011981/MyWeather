@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="164dp"
+    android:layout_height="164dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_compas_back"
+        android:rotation="-4"
+        android:src="@drawable/shape_compas" />
+
+    <TextView
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:text="@string/n"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:text="@string/w"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="25dp"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:text="@string/s"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="30dp"
+        android:text="E"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:rotation="90"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@drawable/tomon_base"
+        android:importantForAccessibility="no" />
+    <ImageView
+        android:scaleX="3"
+        android:layout_marginEnd="20dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical|right"
+        android:src="@drawable/tomon_base"
+        tools:ignore="RtlHardcoded"
+        android:importantForAccessibility="no" />
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:scaleX="2"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:rotation="-90"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/tomon_base"
+        android:importantForAccessibility="no" />
+    <ImageView
+        android:scaleX="3"
+        android:layout_marginStart="10dp"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:rotation="180"
+        android:layout_gravity="center_vertical|left"
+        android:src="@drawable/tomon_base"
+        tools:ignore="RtlHardcoded"
+        android:importantForAccessibility="no" />
+</FrameLayout>

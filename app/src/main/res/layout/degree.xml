@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="420dp"
+    android:layout_height="150dp"
+    android:layout_gravity="center_horizontal">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="60dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shape_one"
+            android:importantForAccessibility="no"
+            android:paddingTop="50dp"
+            android:paddingHorizontal="10dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/moon_cloud_mid_rain_2x"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:text="@string/_12_am"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="90dp"
+            android:text="@string/_30"
+            android:textColor="#40CBD8"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="110dp"
+            android:text="@string/_19_u00b0"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_two"
+        android:layout_width="60dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:layout_width="61dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shape_main"
+            android:paddingTop="50dp"
+            android:importantForAccessibility="no"
+            android:paddingHorizontal="10dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/moon_cloud_mid_rain_2x"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:text="@string/now"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout_two"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout_two"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="110dp"
+            android:text="@string/_19_u00b0"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_three"
+        android:layout_width="60dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout_two"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shape_one"
+            android:paddingTop="50dp"
+            android:importantForAccessibility="no"
+            android:paddingHorizontal="10dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/mooncloudfast_wind"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:text="@string/_2_am"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout_three"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout_three"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="110dp"
+            android:text="@string/_18_u00b0"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout_three"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout_three" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_four"
+        android:layout_width="60dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout_three"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shape_one"
+            android:paddingTop="50dp"
+            android:importantForAccessibility="no"
+            android:paddingHorizontal="10dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/moon_cloud_mid_rain_2x"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:text="@string/_3_am"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout_three"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout_three"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="110dp"
+            android:text="@string/_19_u00b0"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout_three"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout_three" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_five"
+        android:layout_width="60dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout_four"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shape_one"
+            android:paddingTop="50dp"
+            android:importantForAccessibility="no"
+            android:paddingHorizontal="10dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/moon_cloud_mid_rain_2x"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:text="@string/_4_am"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout_five"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout_five"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="110dp"
+            android:text="@string/_19_u00b0"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout_five"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout_five" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_six"
+        android:layout_width="60dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout_five"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="60dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shape_one"
+            android:paddingTop="50dp"
+            android:importantForAccessibility="no"
+            android:paddingHorizontal="10dp"
+            android:scaleType="fitStart"
+            app:layout_constraintStart_toEndOf="@+id/frameLayout_five"
+            app:srcCompat="@drawable/moon_cloud_mid_rain_2x"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="110dp"
+            android:text="@string/_19_u00b0"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout_six"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout_six" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:text="@string/_5_am"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/frameLayout_six"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout_six"
+            tools:ignore="MissingConstraints" />
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

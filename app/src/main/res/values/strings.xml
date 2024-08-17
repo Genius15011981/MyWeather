@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MyWeather Activity</string>
+    <string name="_19_u00b0">19°</string>
+    <string name="mostly">19° | Mostly</string>
+    <string name="plus">+</string>
+    <string name="montreal">Montreal</string>
+    <string name="mostly_clear">Mostly Clear</string>
+    <string name="h_24_u00b0_l_18_u00b0">H:24В° L:18В°</string>
+    <string name="_12_am">12 AM</string>
+    <string name="_30">30%</string>
+    <string name="_18_u00b0">18°</string>
+    <string name="now">Now</string>
+    <string name="_2_am">2 AM</string>
+    <string name="_3_am">3 AM</string>
+    <string name="_4_am">4 AM</string>
+    <string name="_5_am">5 AM</string>
+    <string name="hourly_forecast">Hourly Forecast</string>
+    <string name="mostly_cl">| Mostly Clear</string>
+    <string name="air_quality">AIR QUALITY</string>
+    <string name="health_risk">3-Low Health Risk</string>
+    <string name="see_more">See more</string>
+    <string name="uv_index">UV INDEX</string>
+    <string name="_5_28_am">5:28 AM</string>
+    <string name="sunrise">SUNRISE</string>
+    <string name="sunset_7_25pm">Sunset: 7:25PM</string>
+    <string name="_1_8_mm">1.8 mm</string>
+    <string name="in_last_hour">in last hour</string>
+    <string name="n">N</string>
+    <string name="w">W</string>
+    <string name="s">S</string>
+</resources>

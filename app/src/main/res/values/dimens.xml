@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="montreal">34sp</dimen>
+    <dimen name="four">24sp</dimen>
+    <dimen name="under_four">18sp</dimen>
+
+</resources>
